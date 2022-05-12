@@ -23,7 +23,15 @@ img {
     font-weight:bold;
 }
 
+.block{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
 /* ===================== Navegación =========================== */
+
 .menu li {
     display: inline-block;
     padding: 15px 20px;
@@ -35,6 +43,7 @@ img {
 }
 
 /* ===================== Intro =========================== */
+
 .intro {
     background-color: #fef2f2;
     /* min-height: 100vh; */
@@ -69,12 +78,16 @@ h1 {
 }
 
 /* =================== Acerca de mi ========================== */
+
 .paragraph{
+    margin-top: 20px;
     color: #717171;
+    text-align: justify;
     font-size: 16px;
 }
 
 /* ================= Mis habilidades ======================== */
+
 .habilities{
     margin-top: 20px;
     margin-bottom: 30px;
@@ -82,7 +95,32 @@ h1 {
     font-size: 13px;
 }
 /* =================== Experiencia ========================== */
+
+.text-orange{
+    color: #f26440;
+}
+
 .logos{
     max-width: 40px;
-    color: #f26440;
+}
+
+.experience{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* =================== Portafolio ========================== */
+
+
+
+/* ==================== Contacto =========================== */
+
+.img-contact {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #f26440;
+    border-radius: 50%;
+    text-align: center;
 }
