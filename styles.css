@@ -88,6 +88,15 @@ h1 {
 
 /* ================= Mis habilidades ======================== */
 
+.boxes-habilities{
+    background-color: #f9f5f2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
 .habilities{
     margin-top: 20px;
     margin-bottom: 30px;
@@ -101,7 +110,7 @@ h1 {
 }
 
 .logos{
-    max-width: 40px;
+    max-width: 60px;
 }
 
 .experience{
